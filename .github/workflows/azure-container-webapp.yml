@@ -55,6 +55,6 @@ jobs:
     - name: Deploy
       uses: azure/webapps-deploy@v2
       with:
-        app-name: pycaret-insurance1
+        app-name: pycaret-insurance
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
         images: ${{ secrets.ACR_LOGIN_SERVER }}/hands-app:${{ github.sha }}
