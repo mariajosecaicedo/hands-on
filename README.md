@@ -14,9 +14,6 @@ Desplegar un modelo de Machine Learning como un servicio web accesible desde el 
 - Exposición del modelo mediante una API web (Flask)
 
 
----
----
-
 ## Tecnologías utilizadas
 
 - Python
@@ -25,7 +22,6 @@ Desplegar un modelo de Machine Learning como un servicio web accesible desde el 
 - Docker
 - Azure App Service
 
----
 
 ##  ¿Cómo funciona?
 
@@ -42,7 +38,6 @@ El flujo es:
 
 Usuario → Web App → Modelo → Predicción
 
-—
 ##  Uso de Docker
 
 Docker permite empaquetar la aplicación con todas sus dependencias, garantizando que funcione de manera consistente en cualquier entorno.
@@ -53,7 +48,6 @@ El contenedor incluye:
 - Modelo entrenado
 - Dependencias del proyecto
 
----
 
 ##  Ejecución local
 
